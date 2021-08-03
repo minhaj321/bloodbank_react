@@ -1,0 +1,74 @@
+.header_div{
+    z-index: 1;
+    background-color: rgb(37, 124, 124);
+    height: 50px;
+    width: 100%;
+}
+.header_div button{
+    float: right;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0px;
+    font-size: large;
+    color: whitesmoke;
+}
+.header_div img{
+    height: 45px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+.header_div p{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    color: rgb(238, 238, 238);
+    display: inline;
+}
+
+
+.selectedStatus:hover{
+cursor: pointer;
+color:violet;
+} 
+
+.selectedStatus{
+    text-align: center;
+    border-bottom: 2px solid violet;
+    padding: 17px;
+}
+
+
+.selectedGroup:hover{
+    color:blue;
+    cursor: pointer;
+    } 
+    
+.selectedGroup{
+        text-align: center;
+        border-bottom: 2px solid blue;
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+        padding: 17px;
+    }
+    
+.paper{
+    padding: 17px;
+    
+    text-align: center;
+}
+.paper:hover{
+    color:violet;
+    cursor: pointer;
+}
+.paperA{
+    padding: 17px;
+    text-align: center;
+}
+.paperA:hover{
+    color:blue;
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+.msg_main{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#7bc9e66c,#467a72);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg_box{
+margin-bottom: 4px;
+}
+.allMsgs{
+    margin-bottom: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    /* border-top: 2px solid grey; */
+    border-left: 2px solid grey;
+    /* border-bottom: 2px solid grey; */
+}
+
+.allMsgs div{
+    margin-left: 10px;
+    margin-top:2px;
+    padding: 1px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+.selfMsg{
+    color: sienna;
+    
+}
+
+.othersMsg{
+    color: rgba(58, 84, 105, 0.493);
+}
+
+.DltBtn{
+    color: red;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid red;
+    height: 20px;
+
+    background-color: transparent;
+}
+
+.input_btn input{
+width: 500px;
+height: 30px;
+border: none;
+background-color: transparent;
+border-bottom: 3px solid rgb(23, 34, 34);
+border-right: 3px solid rgb(23, 34, 34);
+border-left: 3px solid rgb(23, 34, 34);
+}
+
+.input_btn button{
+    border-radius: 40px;
+    border:none;
+    width: 80px;
+    height: 32px;
+    background-color: rgba(58, 84, 105, 0.493);
+    font-size: 17px;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #073816; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #555; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(19, 15, 15); 
+  }
